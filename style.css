@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #1e4d6b;
+  background-color: #3c1a47;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +29,12 @@ body {
 
 /* Main Page Styling */
 .menu-card {
-  background: linear-gradient(180deg, #b8e6ff 0%, #7ec8e3 100%);
-  border: 6px solid #ffffff;
+  background: linear-gradient(180deg, #3C1A47 0%, #7ec8e3 100%);
+  border: 6px solid #b6ff00;
   border-radius: 24px;
   padding: 40px 50px;
   text-align: center;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 15px 35px #3C1A47;
   max-width: 400px;
 }
 
@@ -56,15 +56,15 @@ body {
 }
 
 .menu-card p {
-  color: #165b82;
+  color: #b6ff00;
   font-size: 1.1rem;
   margin-bottom: 25px;
 }
 
 button {
-  background-color: #ffd100;
-  color: #0b3954;
-  border: 3px solid #e09f00;
+  background-color: #3C1A47;
+  color: #b6ff00;
+  border: 3px solid #b6ff00;
   padding: 14px 32px;
   font-size: 1.25rem;
   font-weight: bold;
@@ -91,7 +91,7 @@ button:active {
   border-radius: 16px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
   overflow: hidden;
-  background-color: #8fd3f4;
+  background-color: #ad137c;
 }
 
 #score-board {

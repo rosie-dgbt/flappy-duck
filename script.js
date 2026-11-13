@@ -44,11 +44,11 @@ const duck = {
     ctx.rotate(tilt);
 
     // Yellow Body
-    ctx.fillStyle = "#FFD700";
+    ctx.fillStyle = "#f72bb0";
     ctx.beginPath();
     ctx.ellipse(0, 4, 20, 14, 0, 0, Math.PI * 2);
     ctx.fill();
-    ctx.strokeStyle = "#E6AC00";
+    ctx.strokeStyle = "#7909589d";
     ctx.lineWidth = 2;
     ctx.stroke();
 
